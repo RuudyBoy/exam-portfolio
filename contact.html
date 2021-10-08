@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is the contact page of the Volleyblog" />
+    <title> Volleyblog| Contact page</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="img/ball-4604616_640.png" alt="Volleyblog logo" class="logo"></a>
+        <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="hamburger-menu">
+        <nav>
+            <ul>
+                <li>
+                    <a href="Index.html"> Home</a>
+                    <a href="blogposts.html"> Blog posts</a>
+                    <a class="activesite" href="contact.html"> Contact</a>
+                    <a href="about.html"> About</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contactpage-background">
+        <form id="contactForm" class="contact_form">
+            <h1>Contact information</h1>
+            <hr>
+            <div >
+                <label>Full name(required) </label>
+                <input name="fullName" id="fullName"/>
+                <div class="error" id="fullNameError"> Please enter your name</div>
+            </div>  
+            <div>
+                <label>Email(required)</label>
+                <input name="email" id="email"/>
+                <div class="error" id="emailError"> Please enter a valid email</div>
+            </div> 
+            <div>
+                <label>Subject </label>
+                <input name="subject" id="subject"/>
+                <div class="error" id="subjectError"> Subject must be at least 15 letters</div>
+            </div>
+            <div>
+                <label>Message</label>
+                <input name="Message" id="message"/>
+                <div class="error" id="messageError"> Message must be at least 25 characters </div>
+            </div>
+            <button class="contact_submitbutton">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <section class="footer_content">
+            <div class="subscribe">
+                <h3>Subscribe</h3>
+                <p>Enter your email for news and updates</p>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" class="Input">
+                <input type="submit" value="Send"> 
+                <h3>Follow us</h3>
+                <div class="follow">
+                    <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                    <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+                    <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+            </div>
+            </div>
+            <div class="entrance">
+                <h3>Address</h3>
+                <p>3325 Sunrise Road</p>
+                <p>Las Vegas,</p>
+                <p>Nevada,</p>
+                <p>89107</p>
+        </div>
+            <div class="information">
+                <h3>Information</h3>
+                <p>Privacy policy</p>
+                <p>Terms & conditions</p>
+                <p>Accessibility</p>
+                <p>&copy; Copyright </p>
+            </div>
+            </section>
+        
+    </footer>
+    <script src="js/contactpage.js"></script>
+</body>
+
+</html>
