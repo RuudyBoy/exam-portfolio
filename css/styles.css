@@ -217,7 +217,7 @@ footer i:hover {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  min-height: 70vh;
+  min-height: 50vh;
   margin: 0px;
   padding-bottom: 50px;
 }
@@ -260,6 +260,8 @@ footer i:hover {
 
 .slider-post:hover {
   background-color: #ffbb36;
+  transition: 0.5s;
+  padding: 5px;
 }
 
 .main-slider {
@@ -286,7 +288,6 @@ footer i:hover {
   z-index: 1;
   background-color: white;
   color: #17225c;
-  border-radius: 10px;
   border: 1px solid white;
 }
 
@@ -300,16 +301,19 @@ footer i:hover {
   z-index: 1;
   background-color: white;
   color: #17225c;
-  border-radius: 10px;
   border: 1px solid white;
 }
 
 .slider-button:hover {
   background-color: #ffbb36;
+  transition: 0.5s;
+  font-size: 30px;
 }
 
 .rbutton:hover {
   background-color: #ffbb36;
+  transition: 0.5s;
+  font-size: 30px;
 }
 
 .slider-post img {
@@ -591,6 +595,10 @@ img [data-modal] {
 
   .homepage_heading {
     font-size: 80px;
+  }
+
+  .homepage_background {
+    min-height: 70vh;
   }
 
   /* BLOGPOST PAGE */
