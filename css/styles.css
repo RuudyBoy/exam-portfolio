@@ -342,7 +342,6 @@ footer i:hover {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  min-height: 100vh;
   margin: 0px;
 }
 
@@ -351,8 +350,8 @@ footer i:hover {
   align-items: center;
   color: #17225c;
   background-color: white;
-  margin: 10px auto;
-  max-width: fit-content;
+  max-width: 70%;
+  margin: 30px auto;
   padding: 20px;
   border-radius: 10px;
   border: 2px solid #17225c;
@@ -643,5 +642,15 @@ img [data-modal] {
   /* ABOUT PAGE */
   .about_text {
     max-width: 1000px;
+  }
+
+  /* CONTACT PAGE */
+  .contactpage-background {
+    min-height: 80vh;
+  }
+
+  .contact_form {
+    margin: 10px auto;
+    max-width: fit-content;
   }
 }
