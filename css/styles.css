@@ -547,6 +547,14 @@ img [data-modal] {
 }
 
 .post-content p {
+  display: none;
+}
+
+.post-info img {
+  display: none;
+}
+
+.post-info p {
   padding: 20px;
   max-width: 80%;
   margin: auto;

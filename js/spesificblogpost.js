@@ -38,6 +38,11 @@ function createHTML(details) {
     document.title = ` Article| ${details.title.rendered}`;
 
     postContainer.innerHTML =` <div class="postName"> <h1> ${details.title.rendered} </h1> <hr> </div>
-    <div class="post-content">  ${details.content.rendered} </div>`;
+    <div class="post-content">  ${details.content.rendered} </div>
+    <p> by Christian Ruud </p>
+    <div class="post-info"> 
+    <h2> ${details.better_featured_image.alt_text}  </h2>
+     ${details.content.rendered} 
+     <p> Date published: ${details.date}</p> </div>`;
 
 }
